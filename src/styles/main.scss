@@ -1,15 +1,30 @@
 @use 'variaveis';
 @use 'header';
 @use 'home';
+@use 'sobre';
+@use 'trailer';
+@use 'footer';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
+    list-style: none;
 }
 
 body {
     background-color: variaveis.$corDeFundo;
 }
+
+    .title {
+        color: variaveis.$corDoTitle;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .text {
+        color: variaveis.$corDoText;
+        font-size: 16px;
+    }
 

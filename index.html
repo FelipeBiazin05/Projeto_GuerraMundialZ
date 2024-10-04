@@ -8,36 +8,76 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <nav class="header__nav">
             <img src="./src/images/World_War_Z_logo.png" alt="logo Guerra Mundial Z">
-            <h1 class="title_header">Guerra Mundial Z</h1>
             <ul class="header__nav__links">
                 <li class="header__nav__links__item">
                     <a href="#home">Home</a>
                 </li>
                 <li class="header__nav__links__item">
-                    <a href="#">Sobre</a>
+                    <a href="#sobre">Sobre</a>
                 </li>
                 <li class="header__nav__links__item">
-                    <a href="#">Trailer</a>
-                </li>
-                <li class="header__nav__links__item">
-                    <a href="#">Contato</a>
+                    <a href="#trailer">Trailer</a>
                 </li>
             </ul>
         </nav>
     </header>
     <section id="home" class="home">
-        <section class="home__container">
-            <img src="./src/images/Fundo_Home.jpg" alt="Fundo Guerra Mundial Z">
-            <h1 class="home__container__overlay_title">Sinopse:</h1>
+        <div class="home__container">
+        <img src="./src/images/Fundo_Home.jpg" alt="Fundo">
+            <h1 class="home__container__overlay_title">
+                GUERRA MUNDIAL <span class="title__home">Z</span>
+            </h1>
             <h2 class="home__container__overlay_text">
                 Uma terrível e misteriosa doença se espalha pelo mundo, transformando as pessoas em uma espécie de zumbis. A velocidade do contágio é impressionante e logo o Governo americano recruta um ex-investigador da ONU (Organização das Nações Unidas) para investigar o que pode estar acontecendo e assim salvar a humanidade, tendo em vista que as previsões são as mais catastróficas possíveis. Gerry Lane (Brad Pitt) tinha optado por dedicar mais tempo a sua esposa Karen (Mireille Enos) e as filhas, mas seu amor a pátria e o desejo de salvar sua família acabam contribuindo para que ele tope a missão. Agora, ele precisa percorrer o caminho inverso da contaminação para tentar entender as causas ou, ao menos, indentificar uma maneira de conter o contágio até que se descubra uma cura antes do  apocalipse. Começa uma verdadeira corrida contra o tempo, que mostra-se cada vez mais curto, na medida que a população de humanos não para de diminuir. 
             </h2>
-        </section>
+        </div>
     </section>
+    <section id="sobre" class="sobre">
+        <div class="sobre__container">
+            <h1 class="title">
+                Tudo sobre o filme
+            </h1>
+            <div class="sobre__container__info">
+                <img src="./src/images/img_sobre.jpg" alt="Word War Z">
+                <ul>
+                    <li class="sobre__container__info__item text">
+                        <strong>Lançamento:</strong> 28 de Junho 2013
+                    </li>
+                    <li class="sobre__container__info__item text">
+                        <strong>Titulo original:</strong> Word War Z
+                    </li>
+                    <li class="sobre__container__info__item text">
+                        <strong>Roteiro:</strong> Matthew Michael Carnahan, J. Michael Straczynski
+                    </li>
+                    <li class="sobre__container__info__item text">
+                        <strong>Elenco:</strong> Brad Pitt, Mireille Enos, Elyes Gabel
+                    </li>
+                    <li class="sobre__container__info__item text">
+                        <strong>Direção:</strong> Marc Forster |
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="trailer" class="trailer">
+        <h1 class="title">
+            ASSISTA O TRAILER AGORA
+        </h1>
+        <video width="640" height="480" controls>
+            <source src="./src/images/Guerra_Mundial_Z_-_Filme_2013_-_AdoroCinema.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+    </section>
+    <footer class="footer">
+
+    </footer>
 </body>
 </html>

@@ -1,6 +1,9 @@
+.title__home {
+    font-family: "Playfair Display", serif;
+    color: red;
+}
+
 .home {
-
-
     &__container {
         position: relative;
         max-width: 2000px;
@@ -9,30 +12,33 @@
         padding: 0;
 
         img {
-            max-width: 2400px;
             width: 100%;
             height: 100%;
+            max-width: 2000px;
+        }
 
+        &__overlay_title {
+            font-family: "Playfair Display", serif;
+            position: absolute; 
+            top: 4%; 
+            text-align: center; 
+            margin-left: 36%;
+            color: #000;
+            font-size: 42px;
+            font-weight: bold;
         }
 
         &__overlay_text {
             position: absolute; 
-            top: 12%; 
+            top: 0; 
             color: white; 
             font-size: 14px; 
             text-align: center; 
             background: rgba(0, 0, 0, 0.5); 
             padding: 10px; 
             border-radius: 8px; 
+            margin: 100px 120px;
         }
 
-        &__overlay_title {
-            position: absolute; 
-            top: 5%; 
-            color: white; 
-            font-size: 36px; 
-            text-align: center; 
-            margin-left: 42%;
         }
     }
-}
